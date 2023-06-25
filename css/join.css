@@ -58,7 +58,23 @@
     position: absolute;
     animation: a2 60s infinite linear;
 }
+/* 这是一段使用 CSS 实现的对 square 类元素的 before 和 after 伪元素的样式设置。
 
+其中的 content 属性定义了在元素中插入的内容，这里设置为一个空字符串，即在该元素上没有内容，仅用于添加装饰性的样式。
+
+接下来，width 和 height 属性用于设置元素的宽度和高度，这里都设置为 250px。
+
+transform 属性用于指定元素的变换方式。这里使用了 rotate 函数将元素旋转了一定角度，用于实现旋转的效果。
+
+border 属性用于设置元素的边框大小、颜色和样式。
+
+border-radius 属性用于设置元素的边框圆角半径。
+
+position 属性被设置为 absolute，使元素脱离文档流并相对于父元素 .square 进行定位。
+
+最后，使用 animation 属性对该元素应用了自定义的动画效果 a2，其中的持续时间为 25s 或者 60s，效果为线性无限循环。
+
+综上所述，该段代码使用了多种 CSS 样式属性，使 square 类元素的 before 和 after 伪元素实现了在特定时间段内不断旋转的效果，达到了装饰和美化的目的。 */
 .left .tit{
     position: absolute;
     font-size: 2em;
@@ -77,7 +93,9 @@
 .left .square:hover::after{
     animation: a1 50s infinite linear;
 }
+/* 在这段代码中，.left .square:hover 选择符选中了带有 square 类的元素，并在其被鼠标悬停时触发动画效果。其中的 animation 属性用于指定所使用的动画效果及其属性。在这里，a1、a2 是两个自定义的动画名称，15s, 80s, 50s 分别对应了动画的持续时间。其中，infinite 用于指定动画应该无限循环播放，而 linear 则表示动画效果是线性的。
 
+接下来，.left .square:hover::before 和 .left .square:hover::after 分别选中了 square 元素的伪元素 before 和 after，并分别为它们添加不同的动画效果。 */
 .joinpart .right{
     width: 800px;
     height: 100%;

@@ -10,7 +10,7 @@
     transition: 0.5s ease 0s;
     animation: load 0.5s;
 }
-
+/*background-attachment(附件) 属性设置了背景图片的滚动样式，被设置为 fixed，背景图片随页面滚动而不偏移。width 属性设置了元素的宽度，被设置为 100 视窗宽度。transition 属性实现了元素样式的过渡效果，被设置为 0.5 秒的延迟时间，通过 ease 函数实现了平滑的过渡效果。animation 属性则实现了元素加载过程中的动画效果，被设置为一个名为 load 的动画，持续时间为 0.5 秒。*/
 .titleimg .title{
     width: 1540px;
     padding:200px;
